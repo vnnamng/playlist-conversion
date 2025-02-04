@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "playlist", # The correct member name
+]
+
+[package]
+name = "playlist-conversion"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+playlist = { path = "playlist" } # Referencing the playlist library
+dotenvy = "0.15"
